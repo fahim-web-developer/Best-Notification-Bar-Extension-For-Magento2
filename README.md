@@ -1,24 +1,17 @@
 # Sticky Notification Bar - Magento 2 Extension
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/Fahim/module-notification-bar.svg?style=flat-square)](https://packagist.org/packages/Fahim/module-notification-bar)  [![Packagist](https://img.shields.io/packagist/dt/Fahim/module-notification-bar.svg?style=flat-square)](https://packagist.org/packages/Fahim/module-notification-bar/stats) [![Packagist](https://img.shields.io/packagist/dm/Fahim/module-notification-bar.svg?style=flat-square)](https://packagist.org/packages/Fahim/module-notification-bar/stats)
+Installation Details
 
-This will display a sticky notification bar on top of website.
+Download the zip file Extract it and put into /app/code/ Open CLI in the Magento directory and Run Magento installation commands.
 
+Run the CLI Commands
 
-## Installation
+➔ php bin/magento setup:upgrade
 
-> composer require Fahim/module-notification-bar
+➔ php bin/magento setup:di:compile
 
-## Authors
+➔ php bin/magento setup:static-content:deploy
 
-- Fahim [Maintainer] [![Twitter Follow](https://img.shields.io/twitter/follow/_Fahim.svg?style=social)](https://twitter.com/_Fahim)
-- Ravinder [Maintainer] [![Twitter Follow](https://img.shields.io/twitter/follow/_iAmRav.svg?style=social)](https://twitter.com/_iAmRav)
+➔ php bin/magento cache:clean
 
-
-## License
-
-This project is licensed under the Open Source License
-
-## ADS
-
-Please visit our [store](https://Fahim.com) for more free/paid extensions from us.
+➔ php bin/magento cache: flush
